@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    tools:targetApi="26"
+    android:id="@+id/laymain"
+    >
+
+    <include layout="@layout/mytoolbar" />
+
+    <TextView
+        android:id="@+id/instainfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-0dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/instainfo"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/loginfb"
+        android:layout_width="339dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#3897F0"
+        android:drawableLeft="@drawable/ic_facebook"
+        android:drawablePadding="5dp"
+        android:paddingHorizontal="70dp"
+        android:paddingLeft="30dp"
+        android:text="Log in with Facebook"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="17sp"
+        android:onClick="facebook"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/textView"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:drawableRight="@drawable/ic_email_black_24dp"
+        android:ems="20"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:drawableRight="@drawable/ic_person_outline_black_24dp"
+        android:ems="20"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:drawableRight="@drawable/ic_person_black_24dp"
+        android:ems="20"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/signpwd"
+    android:layout_width="340dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    app:passwordToggleDrawable="@drawable/icon"
+    app:passwordToggleEnabled="true"
+    app:passwordToggleTint="#000">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_border_edittext"
+            android:ems="20"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signconfirmpwd"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:passwordToggleDrawable="@drawable/icon"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#000">
+
+        <EditText
+            android:id="@+id/confirmpassword"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_border_edittext"
+            android:ems="20"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:background="#3897F0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By signing up, you agree to our Terms,Data Policy and Cookies Policy ."
+        android:paddingLeft="120dp"
+        android:paddingRight="90dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_border"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Have an account? Log in"
+        android:onClick="logIn"/>
+
+
+
+</LinearLayout>

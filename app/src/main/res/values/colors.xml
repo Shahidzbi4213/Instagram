@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="insta1"> #405DE6</color>
+    <color name="insta2"> #5851DB</color>
+    <color name="insta3">  #833AB4</color>
+    <color name="insta4">  #C13584</color>
+    <color name="insta5">  #E1306C</color>
+    <color name="insta6">  #F56040</color>
+    <color name="insta7">  #F77737</color>
+    <color name="insta8">  #FCAF45 </color>
+    <color name="insta9">  #FFDC80 </color>
+
+
+
+
+</resources>

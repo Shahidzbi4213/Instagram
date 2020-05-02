@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="facebook">&#xf004;</string>
+    <string name="instainfo">Sign up to see photos and videos from your friends.</string>
+    <string name="instagram">Instagram</string>
+    <string name="textView">______________OR______________</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_an_account_sign_up">Dont Have an account? Sign up</string>
+</resources>
